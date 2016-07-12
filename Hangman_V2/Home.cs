@@ -17,6 +17,7 @@ namespace Hangman_V2
             btn_Exit.Click += delegate { this.FinishAffinity(); };
             btn_Scores.Click += delegate { StartActivity(typeof(Scores)); };
             btn_Play.Click += delegate { StartActivity(typeof(Game)); };
+            // Pretty Basic.
         }
     }
 }
