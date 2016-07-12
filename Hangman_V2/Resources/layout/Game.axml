@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="36.5dp"
+        android:id="@+id/Game_PasswordTest"
+        android:password="false"
+        android:clickable="false"
+        android:editable="false"
+        android:gravity="center"
+        android:textScaleX="2"
+        android:text="THEWORDISHERE" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="32.5dp"
+        android:password="false"
+        android:clickable="false"
+        android:editable="false"
+        android:gravity="center"
+        android:textScaleX="1"
+        android:id="@+id/Game_Info"
+        android:text="SCORES AND OTHER DATA HERE"
+        android:layout_gravity="center" />
+    <GridView
+        android:columnWidth="40dip"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:horizontalSpacing="1dip"
+        android:numColumns="3"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="1dip"
+        android:id="@+id/Game_GV"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
