@@ -12,9 +12,9 @@ namespace Hangman_V2
     [Activity(Label = "Game")]
     public class Game : Activity
     {
-        private static int score = 0;
-        private static int attempts = 3;
-        private static int lives = 3;
+        int score = 0;
+        int attempts = 3;
+        int lives = 3;
         // Init our variables for use by the program
 
         protected override void OnCreate(Bundle bundle)
