@@ -1,4 +1,4 @@
-# Hangman_V2
+# Xamarin-Hangman-App
 Hangman game made with Xamarin
 
 Currently Broken Hangman Game...
