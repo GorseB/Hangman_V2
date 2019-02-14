@@ -23,8 +23,6 @@ namespace Hangman_V2
             SetContentView(Resource.Layout.Game);
             string dbpath = Stuff();
             // ^ SQLite Stuff
-            UserDialogs.Init(this);
-            // Dialog Stuff ^
             //
             EditText Textbox = FindViewById<EditText>(Resource.Id.Game_PasswordTest);
             EditText Scorebox = FindViewById<EditText>(Resource.Id.Game_Info);
